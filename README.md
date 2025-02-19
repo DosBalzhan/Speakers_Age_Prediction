@@ -5,6 +5,7 @@ correlations to uncover dependencies between features and the target variable, a
 problem. The results present the effectiveness of this approach, achieving predictive performance with Root Mean Square Error as the primary evaluation metric.
 
 I. PROBLEM OVERVIEW
+
 The proposed project focuses on the Predicting Speaker’s Age Dataset, a collection of audio recordings from various speakers. The goal is to develop a regression pipeline that
 accurately predicts the age of a speaker for each spoken sentence. The dataset includes the following components:
 
@@ -14,10 +15,12 @@ accurately predicts the age of a speaker for each spoken sentence. The dataset i
 
 II. PROPOSED APPROACH
 A. Preprocessings
+
 Firstly, the initial analysis showed that the sampling rate column was constant across all records and was therefore removed. The gender and ethnicity columns, being categorical features, were transformed using the One-Hot Encoding method. To visualize these relationships, we generated scatter plots mapping different features against age, with gender represented by distinct colors. 
 
 B. Model Selection
 After preprocessing, the dataset was split into training and testing sets using an 80/20 ratio to effectively evaluate model performance. The following models were tested:
+
 • Linear Regression. A simple yet effective model that assumes a linear relationship between the features and the target variable.
 • Lasso and Ridge (with ElasticNet). A combination of Lasso and Ridge that balances L1 and L2 regularization. The models articularly effective when features are highly
 correlated, as it retains multiple correlated features while still performing feature selection.
@@ -38,6 +41,7 @@ dependent hyperparameter tuning was conducted using Grid Search CV with 5-fold c
 • Lasso regression (alpha=0.1)
 
 III. RESULTS
+
 In this project, we explored the performance of models such as LinearRegression, Ridge, Lasso (ElasticNet with their combination) and RandomForestRegressor to select the best performing model based on RMSE (Root Mean Square Error) and runtime. To further enhance the performance of models, the following measures were implemented:
 
 • Optimization of regularization alpha for Lasso to balance
