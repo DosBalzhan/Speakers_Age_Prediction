@@ -1,4 +1,6 @@
-Abstract—In this report, we present a methodology for estimatiing the age of a speaker based on their speech characteristics. Our approach integrates feature engineering, including the analysis of
+Abstract
+
+In this report, we present a methodology for estimatiing the age of a speaker based on their speech characteristics. Our approach integrates feature engineering, including the analysis of
 correlations to uncover dependencies between features and the target variable, along with hyperparameter tuning and model comparison to identify the optimal pipeline for this regression
 problem. The results present the effectiveness of this approach, achieving predictive performance with Root Mean Square Error as the primary evaluation metric.
 
