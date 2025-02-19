@@ -5,8 +5,9 @@ problem. The results present the effectiveness of this approach, achieving predi
 I. PROBLEM OVERVIEW
 The proposed project focuses on the Predicting Speaker’s Age Dataset, a collection of audio recordings from various speakers. The goal is to develop a regression pipeline that
 accurately predicts the age of a speaker for each spoken sentence. The dataset includes the following components:
-• Development Set: 2,933 labeled samples with the
-speaker’s age provided as the target variable.
+
+• Development Set: 2,933 labeled samples with the speaker’s age provided as the target variable.
+
 • Evaluation Set: 691 unlabeled samples reserved for testing the model’s predictions.
 
 II. PROPOSED APPROACH
