@@ -1,0 +1,102 @@
+{
+  "fields": [
+    {
+      "name": "Id",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "sampling_rate",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "gender",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "ethnicity",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "mean_pitch",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "max_pitch",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "min_pitch",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "jitter",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "shimmer",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "energy",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "zcr_mean",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "spectral_centroid_mean",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "tempo",
+      "type": "array",
+      "format": "default"
+    },
+    {
+      "name": "hnr",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "num_words",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "num_characters",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "num_pauses",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "silence_duration",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "path",
+      "type": "string",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}
